@@ -7,7 +7,7 @@ export default defineConfig({
   
   server: {
     host: true,         // allow access from network
-    port: 5173,         // your dev server port
+    port: 5172,         // your dev server port
     strictPort: true,   // fail if port is in use
     allowedHosts: [
       'localhost',
