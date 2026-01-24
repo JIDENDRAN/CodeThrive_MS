@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineEye, AiOutlineEdit, AiOutlineDelete } from "react-icons/ai";
 import { getProjects} from "../services/api";
 import { toast } from "react-toastify";
+import api from "../api/axios"; 
 
 
 const Projects = () => {
